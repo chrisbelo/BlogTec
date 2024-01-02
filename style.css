@@ -1,0 +1,120 @@
+html,body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #e6e6e6;
+}
+/*INICIO DO MENU DE NEVEGAÇÃO*/
+header{
+    background-color: #f7b600;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+h1{
+    display: inline;
+}
+.blog{
+    color: #4e4e4e;
+}
+.tec{
+    color:#fff;
+}
+nav{
+    margin-top: 25px;
+    word-spacing: 20px;
+    font-size: 0.8em;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 10px;
+    margin: 0;
+}
+a{
+    color: #f7b600;
+    text-decoration: none;
+}
+a:hover{
+    color: #f7b600;
+    background-color: #FFF;
+    text-decoration: underline;
+}
+
+/*FINAL DO MENU DE NAVEGAÇÃO*/
+
+/*INICIO DA SECTION*/
+
+#area-principal{
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+}
+#area-postagens{
+    width: 680px;
+    float: left;
+    margin-bottom: 20px;  
+}
+.postagem1{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+}
+.postagem2{
+    padding: 20px;
+    background-color: #FFF;
+}
+.postagem h2{
+    margin: 0;
+    font-size: 1.5em;
+    color: #f7b600;
+}
+.postagem span{
+    font-size: 0.8em;
+}
+.postagem img{
+    margin-top: 20px;
+}
+.postagem p{
+    margin: 5px 0px;
+}
+#area-lateral{
+    width: 280px;
+    float: right;
+    margin-bottom: 0;
+}
+#conteudo-lateral{
+    padding: 10px;
+    background-color: #FFF;
+    margin-bottom: 20px;
+}
+#conteudo-lateral h3{
+    background-color: #ccc;
+    padding: 8px;
+    color: #565656;
+    font-size: 1.17em;
+}
+#postagem-lateral{
+    margin-top: 20px;
+}
+#postagem-lateral p{
+    margin-top: -12px;
+    font-size: 0.8em;
+    margin-bottom: -1px;
+}
+#postagem-lateral a{
+    font-size: 1em;
+}
+#postagem-lateral hr{
+    margin-bottom: 15px;
+    color: #565656;
+}
+.rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
